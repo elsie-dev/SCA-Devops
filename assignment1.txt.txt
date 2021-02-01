@@ -1,0 +1,26 @@
+﻿Devops culture in an organization.
+
+
+It is every organization's wish to be able to standout in the market and produce the best products for it clients.
+
+
+Previously in the software life cycle, different software process models like waterfall, incremental and integration models were used.
+Example is the waterfall model which despite being useful had major limitations like new requirements not easily made once the process begins and clients not have the chance to participate in the development process thus moved to agile process.
+Agile process involved creating prototypes used for development and with this clients requirements were better understood. Never the less agile had its own disadvantages the product could not be tested in real environment, developers and operations team worked separately and conflicts could easily arise.
+
+
+This is where Devops technology comes in,this involves applying smaller changes to help reduce risks that make occur between the development and operation team in an organization.
+The operations team analyse and provide feedback to developers before major changes in a software is made. Devops plays a major role by
+* Reducing the time to creat and deliver the software.
+* Improves communication between the team through collaboration.
+* Continuous Integration and delivery the consumer is kept updated.
+
+
+Some of the tools used by devops engineers are,Jenkins which is used for automating workflow virtually
+Redmine helps give users ability to creat there own projects 
+Git is a version control system designed to help track changes in a file
+Terraform is an infrastructure as a code that provides workflow to manage cloud services.
+Jenkins is an open source tool for continuous Integration and delivery of pipelines.
+
+
+ In conclusion,devops technology is important for industries to adopt and use for it's software development.
