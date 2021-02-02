@@ -1,0 +1,79 @@
+﻿Assignment Two: Networking in Devops
+
+
+1.Define switch,hub and router.
+Switch is a device used to facilitate sharing of resources by connecting together all devices to share information and communicate.
+When it receives data it determines destination and sends it directly to the device.
+
+
+Router is used to route data packets to other networks instead of only to local computers,routes traffic between devices and internet.
+
+
+Hub is like a central connection point used to connect multiple devices in a network example ethernet hub and usb hub
+2. What is the OSI model?
+The open system interconnection(osi) was developed to allow systems with different platforms to be able to communicate with each other.
+It has 7 layers application, presentation, session, transport, network,data link and physical layer 
+3. Explain the different layers of the OSI model
+Physical layer 
+On sender side,it receives data from data link layer and encodes it to signals to be transmitted.On receiver side,it receives signals and decodes it back to into data and sends to data link layer. 
+* Transmits bits from one node to another
+* Establishes, maintains and deactivates physical connection.
+Data link layer
+Receives data from network layer and divides it to bits called frames before sending it to physical layer.
+On receiver side,receives streams of bits and regroups them into frames and sends them to network layer.
+* Also data link layer,ensures flow control by making sure sender sends data at appropriate speed.
+* Data link layer plays a role in ensuring there is error free transfer of data frames.
+Network layer
+Network layer ensures transmission of packets from source to destination despite multiple intermediate devices.
+The network layer at the sending side accepts ata from transport layer, divides it to packets adds address information and passes to data link layer while at the receiving end,receives frames converts them to packets verifies the physical address and sends packet to transport layer.
+
+
+Transport layer
+Ensures messages are transmitted in the order they are sent and that there is no duplication of data from source to destination.
+Transport layer is also responsible for flow and error control end to end and not node to node like in data link layer.
+Transport layer has two main ideology
+* Logical addressing(recognize devices on a network
+* Routing(determines best path out of multiple paths
+
+
+Session layer
+Establishes a session between the communicating devices and synchronized their interaction.
+At the sending side accepts data from presentation layer adds checkpoints to it and passes the data to transport layer.
+At the receiving end, receives data from transport layer removed previously inserted checkpoints and passes to presentation layer.
+
+
+Presentation layer
+Communicating devices may be having different platforms, presentation layer helps in;
+* Translation (sending and receiving devices running on different platforms for them to effectively communicate data is translated)
+* Compression at the sender (ensures faster data transfer)
+* Encryption(transforming original message before it is changed)
+
+
+Application layer
+Enables users to communicate data to the receiver through providing access to network resources.
+4. What do you mean by TCP/IP model?
+TCP helps to determine how a specific computer should be connected to the internet and how data is transmitted. It's improvised version of the OSI model that has four layers application,transport,internet and network interface.It also offers highly reliable and end to end stream of unreliable network.
+5. What do you mean by HTTP,UDP and TCP?
+HTTP is an application protocol that allows users to communicate data on www. This is by allowing users a way to interact with web resources by transmitting hypertext messages between clients and servers
+
+
+TCP is transport layer protocol that provides acknowledgement of received and resends lost packets,but this leads to it having packet overhead.
+
+
+UDP is also used in transport layer for communication protocol,,it speeds up communication by not formally establishing a connection before data is transferred.This allows data to be transferred faster but at the se time can lead to DDos attack.
+
+
+6.What is a firewall?
+Firewall is a networking device usually used to monitor incoming and outgoing data in a computer system and determines whether to allow or deny access in accordance with the rules set.
+7. Explain DNS
+Domain name system allows users connect to websites using domain me instead of ip address
+Example when a user wants to access SheCodeAfrica website,a translationist occur between what user types in web browser and the machine-friendly address located for SheCodeAfrica.
+8.Define latency
+ Latency is the speed of internet connection,the time it takes for some data to reach it's destination across the network.
+(Time a request travels from sender to receiver and for receiver to process that request.)
+9. Define caching
+Caching involves when the internet is made to work faster from end user side. Catching is when part of computers memory used for volatile storage is used to recently used information. This enables user to easily access the information incase it is needed a second time.
+
+
+10. Explain wireless access point
+Wireless access point is hardware device or configured node on local area network that allows capable devices to connect through a wireless standard.It acts as a hotspot example wifi or bluetooth
