@@ -3,7 +3,8 @@ This program aims at helping females in the Tech space to grow and better their 
 ## The Devops Levelled Membership Assessments  
 This involves different tasks issued out once one is done learning from the resources issued online. 
 
-Level 3 assessment involved:    
+Level 3 assessment involved:   
+
 1.Installing Git on your computer  
 2.Creat a Git-Hub account and create a repository called "SCA-Devops"  
 3.Add your first Readme file(explain the repo is for sca devops levelled membership assessment)    
