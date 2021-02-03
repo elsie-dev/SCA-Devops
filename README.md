@@ -1,7 +1,8 @@
-#SHE CODE AFRICA INITIATIVE  
+# SHE CODE AFRICA INITIATIVE  
 This program aims at helping females in the Tech space to grow and better their skills thus be more competitive in the global market.  
-#The Devops Levelled Membership Assessments  
-This involves different tasks issued out once one is done learning from the resources issued online.  
+## The Devops Levelled Membership Assessments  
+This involves different tasks issued out once one is done learning from the resources issued online. 
+
 Level 3 assessment involved:    
 1.Installing Git on your computer  
 2.Creat a Git-Hub account and create a repository called "SCA-Devops"  
@@ -22,4 +23,4 @@ Level 3 assessment involved:
 17.Copy the PR link and save elsewhere.  
 18.Merge your PR to master.  
 
-*Added bonus involved creating an extra branch called "Screenshot" with the aboved mentioned steps.
+* Added bonus involved creating an extra branch called "Screenshot" with the aboved mentioned steps.
