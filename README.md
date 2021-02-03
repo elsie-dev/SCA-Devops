@@ -1,5 +1,5 @@
 # SHE CODE AFRICA INITIATIVE  
-This program aims at helping females in the Tech space to grow and better their skills thus be more competitive in the global market.  
+This program aims at helping females in the Tech space to grow and better their skills thus be more competitive in the global market in terms of their careers.
 ## The Devops Levelled Membership Assessments  
 This involves different tasks issued out once one is done learning from the resources issued online. 
 
