@@ -1,0 +1,42 @@
+version: '3'
+services:
+
+
+  #Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+      
+    networks:
+      - app-network
+
+  #MySQL Service
+  db:
+    image: mysql:5.7.22
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "1433:1433"
+    environment:
+      MYSQL_DATABASE: elcyma
+      MYSQL_ROOT_PASSWORD: bahfbg
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - app-network
+      #Kibana service
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.11.2
+    environment:
+      SERVER_NAME: kibana.example.org
+      ELASTICSEARCH_HOSTS: http://elasticsearch.example.org
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge
