@@ -1,4 +1,4 @@
-version: '3'
+version: '3.7'
 services:
 
 
@@ -23,6 +23,11 @@ services:
     tty: true
     ports:
       - "1433:1433"
+    volumes:
+      - my-datavolume:/var/lib/mysql
+
+    
+
     environment:
       MYSQL_DATABASE: elcyma
       MYSQL_ROOT_PASSWORD: bahfbg
@@ -40,3 +45,5 @@ services:
 networks:
   app-network:
     driver: bridge
+volumes:
+  my-datavolume:
